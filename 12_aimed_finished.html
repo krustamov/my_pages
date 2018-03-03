@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Aimed Positioning</title>
+
+  <style>
+      h1 {
+      margin-top: 20%;
+      margin-left: 42%;
+    }
+
+    h2 {
+      margin-left: 43%;
+    }
+
+    /* Header 3 needs no styling but has to be moved to the first position in the HTML */
+
+    /* Header 4 has to be moved to the last position in the HTML */
+    h4 {
+      margin-top: 20%;
+      margin-left: 90%;
+    }
+
+    /* Header 5 needs no styling, but has to be the third element in the HTML. It cannot be placed at the true center of the page due to Header 1 occupying that space; you would have to make it so Header 1 is "inline" */
+
+  </style>
+
+  <!--  Absolute Positions <style>
+      h1 {
+        position: absolute;
+        top: 50%;
+
+        /* The distance from the left margin edge of the element to the left edge of
+        *  the window is 45% of the width of the window. The window is the initial
+        *  containing block, used here because there is no positioned ancestor. */
+        left: 45%;
+      }
+      h2 {
+        position: absolute;
+        top: 55%;
+        left: 46.5%;
+      }
+      h3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      h4 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+      h5 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+      }
+    </style> -->
+  
+</head>
+<body>
+
+<!-- Solution for absolute positioning -->
+<!--<h1>Center of the Page</h1>
+<h2>Just under header 1</h2>
+<h3>Top left of the page</h3>
+<h4>Bottom right of the page</h4>
+<h5>Center left of the page</h5>-->
+
+<!-- Solution for margins only -->
+<h3>Top left of the page</h3>
+<h1>Center of the Page</h1>
+<h5>Center left of the page</h5>
+<h2>Just under header 1</h2>
+<h4>Bottom right of the page</h4> 
+
+
+</body>
+</html>

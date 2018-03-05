@@ -1,2 +1,9 @@
 font awesome
 icoMoon
+if your html files don't run locally:
+npm start
+
+pip install dataspyre
+
+meetup
+

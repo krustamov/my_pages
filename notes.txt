@@ -1,3 +1,4 @@
+this folder was created 03032018 class:
 font awesome
 icoMoon
 if your html files don't run locally:
@@ -5,5 +6,5 @@ npm start
 
 pip install dataspyre
 
-meetup
+KC meetup
 
